@@ -63,7 +63,7 @@ loadDatabase()
 // if (opts['cluster']) {
 //   require('./lib/cluster').Cluster()
 // }
-global.authFile = `${opts._[0] || 'krizyn'}.data.json`
+global.authFile = `${opts._[0] || 'session'}.data.json`
 global.isInit = !fs.existsSync(authFile)
 const { state, saveState } = useSingleFileAuthState(global.authFile)
 
@@ -124,10 +124,10 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = 'Aelah beban nambah 1 Awokawok'
-  conn.bye = 'Nice beban berkurang....'
-  conn.spromote = '╭──֍ 〔 ıll 𝗔𝗗𝗠𝗜𝗡 𝗚𝗥𝗢𝗨𝗣 llı 〕 ֍───\n│╭───────────\n││─⬣ Name : @user\n││─⬣ Desc : Jagain groupnya\n│╰───────────\n╰─────────────────────\n\n📮 Hello | Titip Group nya😉\n📮 Salam dari wa.me/6285828764046'
-  conn.sdemote = '╭──֍ 〔 ıll 𝗨𝗡𝗔𝗗𝗠𝗜𝗡 𝗚𝗥𝗢𝗨𝗣 llı 〕 ֍───\n│╭───────────\n││─⬣ Name : @user\n││─⬣ Desc : Nah kan kurang kerjasama\n│╰───────────\n╰─────────────────────\n\n📮 Hello | Kasian deh😉\n📮 Salam dari wa.me/6285828764046'
+  conn.welcome = '╭─⊙ 〔 ıll 𝗡𝗘𝗪 𝗠𝗘𝗠𝗕𝗘𝗥 llı 〕⊙─\n💬 HELLO MYPREN👋, @user!\n 📮 IN THE GROUP :\n@subject \n\n📮 DESCRIBE GROUP : \n\n@desc'
+  conn.bye = '```GoodBye @user ! 👋```\n📮 Semoga kamu baik baik saja\n\nKalo Balik Jangan Lupa Bawa Gorengan Ya 😉'
+  conn.spromote = '╭──֍ 〔 ıll 𝗔𝗗𝗠𝗜𝗡 𝗚𝗥𝗢𝗨𝗣 llı 〕 ֍───\n│╭───────────\n││─⬣ Name : @user\n││─⬣ Desc : Jagain groupnya\n│╰───────────\n╰─────────────────────\n\n📮 Hello | Titip Group nya😉'
+  conn.sdemote = '╭──֍ 〔 ıll 𝗨𝗡𝗔𝗗𝗠𝗜𝗡 𝗚𝗥𝗢𝗨𝗣 llı 〕 ֍───\n│╭───────────\n││─⬣ Name : @user\n││─⬣ Desc : Nah kan kurang kerjasama\n│╰───────────\n╰─────────────────────\n\n📮 Hello | Kasian deh😉'
   conn.handler = handler.handler.bind(conn)
   conn.participantsUpdate = handler.participantsUpdate.bind(conn)
   conn.onDelete = handler.delete.bind(conn)
