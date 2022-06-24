@@ -87,6 +87,10 @@ Buka halaman HEROKU => https://heroku.com
 |--------|--------|
 | **FFMPEG** |[here](https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest) |
 | **IMAGEMAGICK** | [here](https://github.com/mcollina/heroku-buildpack-imagemagick) |
+| **IMAGEMAGICK 2** | [here](https://github.com/DuckyTeam/heroku-buildpack-imagemagick) |
+| **LIBWEBP** | [here](https://github.com/AzRyCb/heroku-buildpack-libwebp) |
+| **FFMPEG 2** | [here](https://github.com/AzRyCb/heroku-buildpack-ffmpeg-latest) |
+| **IMAGEMAGICK 2** | [here](https://github.com/AzRyCb/heroku-buildpack-imagemagick) |
 
 
 <details>
