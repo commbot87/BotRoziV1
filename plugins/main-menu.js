@@ -27,16 +27,20 @@ const defaultMenu = {
 ┃➵͜͡✪ 𝚁𝙾𝙻𝙴 : *%role*
 ┃➵͜͡✪ 𝙻𝙴𝚅𝙴𝙻 : *%level (%exp / %maxexp)* 
 ┃➵͜͡✪ 𝚃𝙾𝚃𝙰𝙻 𝚇𝙿 : *%totalexp* 𝚇𝙿
+┃➵͜͡✪ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 : %rtotalreg 𝚍𝚊𝚛𝚒 %totalreg 
 ┃
 ┃──〔  𝐓 𝐎 𝐃 𝐀 𝐘  〕─⬣
 ┃➵͜͡✪ 𝚃𝙾𝙳𝙰𝚈 : *%week %weton* 
 ┃➵͜͡✪ 𝙳𝙰𝚃𝙴 : *%date*
 ┃➵͜͡✪ 𝙳𝙰𝚃𝙴 𝙸𝚂𝙻𝙰𝙼𝙸𝙲 : *%dateIslamic*
+┃➵͜͡✪ 𝚄𝙿𝚃𝙸𝙼𝙴 : *%uptime*
 ┃➵͜͡✪ 𝚃𝙸𝙼𝙴 : *%time*
 ┃
 ┃──〔  𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄  〕─⬣
-┃➵͜͡✪ 𝚄𝙿𝚃𝙸𝙼𝙴 : *%uptime*
-┃➵͜͡✪ 𝙳𝙰𝚃𝙰𝙱𝙰𝚂𝙴 : %rtotalreg 𝚍𝚊𝚛𝚒 %totalreg 
+┃➵͜͡✪*Mode:* %mode
+┃➵͜͡✪*Platform:* %platform
+┃➵͜͡✪*Type:* Node.Js
+┃➵͜͡✪*Baileys:* Multi Device
 ┃➵͜͡✪ 𝙼𝙴𝙼𝙾𝚁𝚈 𝚄𝚂𝙴𝙳 : *${(process.memoryUsage().heapUsed / 1024 / 1024).toFixed(2)}MB / ${Math.round(require('os').totalmem / 1024 / 1024)}MB*
 ╰─────────────⬣
 %readmore`.trimStart(), 
@@ -184,9 +188,11 @@ let handler = async (m, { conn, usedPrefix: _p, args, command }) => {
     if (m.isGroup) who = m.mentionedJid[0] ? m.mentionedJid[0] : m.sender
     else who = m.sender 
     let name = conn.getName(m.sender)
+    let mode = global.opts['self'] ? 'Private' : 'Publik'
     let totalreg = Object.keys(global.db.data.users).length
     let rtotalreg = Object.values(global.db.data.users).filter(user => user.registered == true).length
     let premium = global.db.data.users[m.sender].premium
+    let prems = `${premium > 0 ? 'Premium': 'Free'}`
     let user = global.db.data.users[who]
     let platform = os.platform()
     let { exp, limit, level, registered, money, role } = global.db.data.users[m.sender]
@@ -486,7 +492,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
       github: package.homepage ? package.homepage.url || package.homepage : '[unknown github url]',
       name,
       ucapan: ucapan(),
-      level, limit, money, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
+      level, limit, platform, mode, prems, money, name, weton, week, date, dateIslamic, time, totalreg, rtotalreg, role,
       readmore: readMore
     }
     
