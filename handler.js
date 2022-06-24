@@ -710,7 +710,7 @@ module.exports = {
                         } finally {
                             text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || '𝗛𝗮𝗹𝗼 𝗞𝗮𝗸 @user\n𝗦𝗲𝗹𝗮𝗺𝗮𝘁 𝗗𝗮𝘁𝗮𝗻𝗴 𝗗𝗶 𝗚𝗿𝗼𝘂𝗽 @subject\n\nIntro Dulu Yuk Biar Keren 🤙\n\n📛 Nama :\n🏙️ Askot :\n\nSemoga Kamu Senang Berada Disini\nSerta Jangan Lupa Untuk Membaca\nDan Mematuhi Rules Yang Ada\n  ${readMore}\n              *◌  ⃝✧⪼ Deskripsi Group ミ*\n  @desc').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
                                 (chat.sBye || this.bye || conn.bye || 'GoodBye @user ! 👋```\nSemoga kamu baik baik saja\n\nKalo Balik Jangan Lupa Bawa Gorengan Ya (>_<)')).replace('@user', '@' + user.split('@')[0])
-                                this.sendButtonImg(id, pp, text, "©️ AzBoTz-MD", "AWOKAWOAK👋", "Aku wibu nolep", null)
+                                this.sendButtonImg(id, pp, text, "©️ AzBoTz-MD", "AWOKAWOAK👋", "AkuWibuNolep", null)
                                 }
                     }
                 }
