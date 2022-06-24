@@ -124,19 +124,25 @@ global.reloadHandler = function (restatConn) {
     conn.ev.off('creds.update', conn.credsUpdate)
   }
 
-  conn.welcome = '╭─⊙ 〔 ıll 𝗡𝗘𝗪 𝗠𝗘𝗠𝗕𝗘𝗥 llı 〕⊙─\n💬 HELLO MYPREN👋, @user!\n 📮 IN THE GROUP :\n@subject \n\n📮 DESCRIBE GROUP : \n\n@desc'
-  conn.bye = '```GoodBye @user ! 👋```\n📮 Semoga kamu baik baik saja\n\nKalo Balik Jangan Lupa Bawa Gorengan Ya 😉'
+  conn.welcome = '𝗛𝗮𝗹𝗼 𝗞𝗮𝗸 @user\n𝗦𝗲𝗹𝗮𝗺𝗮𝘁 𝗗𝗮𝘁𝗮𝗻𝗴 @user\n𝗗𝗶 𝗚𝗿𝗼𝘂𝗽 @subject\n\nIntro Dulu Yuk Biar Keren 🤙\n\n📛 Nama :\n🏙️ Askot :\n\nSemoga Kamu Senang Berada Disini\nSerta Jangan Lupa Untuk Membaca\nDan Mematuhi Rules Yang Ada\n  ${readMore}\n              *◌  ⃝✧⪼ Deskripsi Group ミ*\n  @desc'
+  conn.bye = 'GoodBye @user ! 👋\nSemoga kamu baik baik saja\n\nKalo Balik Jangan Lupa Bawa Gorengan Ya 😉'
   conn.spromote = '╭──֍ 〔 ıll 𝗔𝗗𝗠𝗜𝗡 𝗚𝗥𝗢𝗨𝗣 llı 〕 ֍───\n│╭───────────\n││─⬣ Name : @user\n││─⬣ Desc : Jagain groupnya\n│╰───────────\n╰─────────────────────\n\n📮 Hello | Titip Group nya😉'
   conn.sdemote = '╭──֍ 〔 ıll 𝗨𝗡𝗔𝗗𝗠𝗜𝗡 𝗚𝗥𝗢𝗨𝗣 llı 〕 ֍───\n│╭───────────\n││─⬣ Name : @user\n││─⬣ Desc : Nah kan kurang kerjasama\n│╰───────────\n╰─────────────────────\n\n📮 Hello | Kasian deh😉'
+  conn.sDesc = 'Deskripsi telah diubah ke \n@desc'
+  conn.sSubject = 'Judul grup telah diubah ke \n@subject'
+  conn.sIcon = 'Icon grup telah diubah!'
+  conn.sRevoke = 'Link group telah diubah ke \n@revoke'
   conn.handler = handler.handler.bind(conn)
   conn.participantsUpdate = handler.participantsUpdate.bind(conn)
   conn.onDelete = handler.delete.bind(conn)
   conn.connectionUpdate = connectionUpdate.bind(conn)
   conn.credsUpdate = saveState.bind(conn)
+  conn.onCall = handler.onCall
 
   conn.ev.on('messages.upsert', conn.handler)
   conn.ev.on('group-participants.update', conn.participantsUpdate)
   conn.ev.on('message.delete', conn.onDelete)
+  conn.on('CB:action,,call', conn.onCall)
   conn.ev.on('connection.update', conn.connectionUpdate)
   conn.ev.on('creds.update', conn.credsUpdate)
   isInit = false
@@ -223,5 +229,5 @@ async function _quickTest() {
 }
 
 _quickTest()
-  .then(() => conn.logger.info('Quick Test Done'))
+  .then(() => conn.logger.info('☑️ Quick Test Done'))
   .catch(console.error)
