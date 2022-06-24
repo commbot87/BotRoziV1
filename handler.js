@@ -8,9 +8,9 @@ module.exports = {
     async handler(chatUpdate) {
         if (global.db.data == null) await loadDatabase()
         this.msgqueque = this.msgqueque || []
-        // console.log(chatUpdate)
+        //console.log(chatUpdate)
         if (!chatUpdate) return
-        // if (chatUpdate.messages.length > 2 || !chatUpdate.messages.length) return
+        if (chatUpdate.messages.length > 2 || !chatUpdate.messages.length) return //received uptime
         if (chatUpdate.messages.length > 1) console.log(chatUpdate.messages)
         let m = chatUpdate.messages[chatUpdate.messages.length - 1]
         if (!m) return
@@ -594,7 +594,7 @@ module.exports = {
                         continue // Limit habis
                     }
                     if (plugin.level > _user.level) {
-                        this.reply(m.chat, `Diperlukan level ${plugin.level} untuk menggunakan perintah ini. Level kamu ${_user.level}`, m)
+                        this.reply(m.chat, `diperlukan level ${plugin.level} untuk menggunakan perintah ini. Level kamu ${_user.level}`, m)
                         continue // If the level has not been reached
                     }
                     let extra = {
@@ -648,7 +648,7 @@ module.exports = {
             console.error(e)
         } finally {
             //console.log(global.db.data.users[m.sender])
-            await this.sendPresenceUpdate('composing', m.chat)
+            //await this.sendPresenceUpdate('composing', m.chat) //autongetik kalo mau auto record ganti jadi recording
             let user, stats = global.db.data.stats
             if (m) {
                 if (m.sender && (user = global.db.data.users[m.sender])) {
@@ -710,7 +710,7 @@ module.exports = {
                         } finally {
                             text = (action === 'add' ? (chat.sWelcome || this.welcome || conn.welcome || '𝗛𝗮𝗹𝗼 𝗞𝗮𝗸 @user\n𝗦𝗲𝗹𝗮𝗺𝗮𝘁 𝗗𝗮𝘁𝗮𝗻𝗴 𝗗𝗶 𝗚𝗿𝗼𝘂𝗽 @subject\n\nIntro Dulu Yuk Biar Keren 🤙\n\n📛 Nama :\n🏙️ Askot :\n\nSemoga Kamu Senang Berada Disini\nSerta Jangan Lupa Untuk Membaca\nDan Mematuhi Rules Yang Ada\n  ${readMore}\n              *◌  ⃝✧⪼ Deskripsi Group ミ*\n  @desc').replace('@subject', groupMetadata.subject).replace('@desc', groupMetadata.desc.toString()) :
                                 (chat.sBye || this.bye || conn.bye || 'GoodBye @user ! 👋```\nSemoga kamu baik baik saja\n\nKalo Balik Jangan Lupa Bawa Gorengan Ya (>_<)')).replace('@user', '@' + user.split('@')[0])
-                                this.sendButtonImg(id, pp, text, "©️ AzBoTz-MD", "AWOKAWOAK👋", "AkuWibuNolep", null)
+                                this.sendButtonImg(id, pp, text, "©️ AzBoTz-MD", "AWOKAWOAK👋", "nani", null)
                                 }
                     }
                 }
@@ -765,7 +765,6 @@ ketik *.off delete* untuk mematikan pesan ini
     if (!db.data.chats[jid].descUpdate) return
     if (!desc) return
     let caption = `
-    ━━ 「 *NewDesk Detected* 」━━
     @${descOwner.split`@`[0]} telah mengubah deskripsi grup.
 
     ${desc}
@@ -817,7 +816,7 @@ global.dfail = (type, m, conn) => {
 ┏━━〔 ıll CONTOH llı 〕━❑
 ⬡ #daftar namamu.umurmu
 ⬡ #daftar @${m.sender.split`@`[0]}.18
-┗━━━━━━━━━━❑ `
+┗━━━━━━━━━━❑`
   }[type]
  if (unreg) return conn.sendBut(m.chat, unreg, '❑ Silahkan Klik reg dibawah ini ❑', 'Register', `.daftar @${m.sender.split`@`[0]}.18`, m)
  }
