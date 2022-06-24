@@ -10,13 +10,13 @@ const ftroli = {
     status: 1,
     surface : 1,
     message: 'LiST PRICE JOIN GROUP', 
-    orderTitle: `zifabotz`,
+    orderTitle: namebot,
     thumbnail: 'https://telegra.ph/file/3c83bc5fa0cbcdc6a1e75.jpg', 
     sellerJid: '0@s.whatsapp.net' 
     }
     }
     }
-	conn.reply(m.chat, price1, ftroli)
+	conn.reply(m.chat, 'price1', ftroli)
 }
 
 handler.help = ['sewa', 'sewabot']
