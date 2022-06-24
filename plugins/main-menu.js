@@ -43,7 +43,7 @@ const defaultMenu = {
   header: '╭─❑ 〔 %category 〕 ❑─\n┃',
   body: '┃⫹⫺ %cmd %islimit %isPremium',
   footer: '┃\n╰────────❑\n', 
-  footerText: 'Powered by ᯤ ʀɪᴇʟɢᴀɴs ᴏғᴄ',
+  footerText: 'Powered by ᯤ Nurutomo',
   after: ``,
 }
 
@@ -314,11 +314,11 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "rowId": ".rules"
               }, {
                   "title": "😼»⟩ OWNER",
-                  "description": "hubungi pemilik untuk lapor bug dan error",
-                  "rowId": `.owner`
+                  "description": "hubungi Pemilik untuk lapor bug atau sewabot",
+                  "rowId": ".owner"
               }, {
                   "title": "💌»⟩ Group Bot",
-                  "description": "Join Grup AzBoTz bang",
+                  "description": "Join Grup AzBoTz dong bang",
                   "rowId": ".gcbot"
               }],
               "title": "⟣─────────❲ Utama ❳──────────⟢"
@@ -327,7 +327,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": `|💬|⟩»➵͜͡✪ ALL MENU`,"description": "Menampilkan Semua Fitur Yang Ada",
                   "rowId": '.? all'
                }, {
-                  "title": "|🌱|⟩»➵͜͡✪ RPG MENU","description": "Menampilkan Menu Game Epic Rpg!",
+                  "title": "|🌱|⟩»➵͜͡✪ RPG MENU","description": "Mainkan Menu Game Epic Rpg!",
                   "rowId": `${_p}? rpg`	
 	       }, {
 	          "title": "|✨|⟩»➵͜͡✪ EXP & LIMIT MENU","description": "Cek XP Dan Level serta lihat progresmu",
@@ -351,10 +351,10 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "title": "|📩|⟩»➵͜͡✪ DOWNLOAD MENU","description": "Download sesuatu menggunakan BOT",
                   "rowId": `${_p}? downloader`
                 }, {    
-                  "title": "🌈⟩» INFO BOT","description": "Lihat Status dan Informasi bot",
+                  "title": "|🌈|⟩» INFO BOT","description": "Lihat Status dan Informasi bot",
                   "rowId": `${_p}? info`	
 		}, {	
-                  "title": "|💬|⟩»➵͜͡✪ GITHUB MENU","description": "Menampilkan Menu Github",
+                  "title": "|💬|⟩»➵͜͡✪ GITHUB MENU","description": "Download Sesuatu Dari Github",
                   "rowId": `${_p}? github`
                 }, {
                   "title": "|👥|⟩»➵͜͡✪ GROUP MENU","description": "Menampilkan Menu khusus Group",
@@ -412,7 +412,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "rowId": `${_p}? textpro`
                 }
                   ],
-                "title": "⟣─────────❲ LIST MENU BOT ❳──────────⟢"
+                "title": "⟣───────❲ LIST MENU BOT ❳────────⟢"
            }, {
               "rows": [{
                   "title": "🛠️⟩» Status Bot",
@@ -427,7 +427,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                   "description": "Jangan lupa donasi untuk mendukung bot agar aktif selalu",
                   "rowId": ".donasi"	
                 }],
-                "title": "⟣─────────❲ INFORMASI ❳──────────⟢"
+                "title": "⟣────────❲ INFORMASI ❳─────────⟢"
               }
             ], "contextInfo": {
               "stanzaId": m.key.id,
