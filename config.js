@@ -20,11 +20,11 @@ global.pulsa = '089688069444'
 global.gopay = '089688069444' 
 
 //=============『 Info Bot 』=================// 
-global.namebot = '❋ཻུ۪۪⸙ *BotMd-Lord_Arya*⳹ 
-❋ཻུ۪۪' global.gc = 'https://chat.whatsapp.com/E7R8oYD1AiKFVTk83Qc0sd' 
+global.namebot = '@❋ཻུ۪۪⸙# *BotMd-Lord_Arya* -%%⳹❋ཻུ۪۪' 
+global.gc = 'https://chat.whatsapp.com/E7R8oYD1AiKFVTk83Qc0sd' 
 global.web = 'https://google-expres-web.blogspot.com' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
 global.webm = 'https://instagram.com/arya_musthofa_roja01' 
-global.price1 = '𝐍𝐈𝐇 𝐁𝐀𝐍𝐆 𝐋𝐈𝐒𝐓 𝐒𝐄𝐖𝐀𝐍𝐘𝐀\n\n》PERMANEN Rp 12.000\nMAKSIMAL 1 GRUP\n》PERMANEN Rp 15.000\nMAKSIMAL 3 GRUP \n》1 BULAN Rp 5.000\nMAKSIMAL 1 GRUP' 
+global.price1 = '𝐍𝐈𝐇 𝐁𝐀𝐍𝐆 𝐋𝐈𝐒𝐓 𝐒𝐄𝐖𝐀𝐍𝐘𝐀\n\n》PERMANEN Rp 21.000\nMAKSIMAL 1 GRUP\n》PERMANEN Rp 17.000\nMAKSIMAL 3 GRUP \n》1 BULAN Rp 13.000\nMAKSIMAL 1 GRUP \n》3 MINGGU FREE ATAU Rp 2.000\nMAKSIMAL 1 GRUP' 
 
 //=======『 Tampilan Dan Lainnya 』============// 
 global.fotonya1 = 'https://telegra.ph/file/6b4b8ae2ba7f244626a6d.jpg' //ganti jadi foto bot mu 
