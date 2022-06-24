@@ -590,11 +590,11 @@ module.exports = {
                     if (xp > 200) m.reply('Ngecit -_-') // Hehehe
                     else m.exp += xp
                     if (!isPrems && plugin.limit && global.db.data.users[m.sender].limit < plugin.limit * 1) {
-                        this.reply(m.chat, `Limit anda habis, silahkan beli melalui *${usedPrefix}buy*`, m)
+                        this.reply(m.chat, `[❗] Limit anda habis, silahkan beli melalui *${usedPrefix}buy limit*`, m)
                         continue // Limit habis
                     }
                     if (plugin.level > _user.level) {
-                        this.reply(m.chat, `diperlukan level ${plugin.level} untuk menggunakan perintah ini. Level kamu ${_user.level}`, m)
+                        this.reply(m.chat, `[💬] Diperlukan level ${plugin.level} untuk menggunakan perintah ini\n*Level mu:* ${_user.level} 📊`, m)
                         continue // If the level has not been reached
                     }
                     let extra = {
@@ -639,7 +639,7 @@ module.exports = {
                                 console.error(e)
                             }
                         }
-                        if (m.limit) m.reply(+ m.limit + ' Limit sudah terpakai🚀')
+                        if (m.limit) m.reply(+ m.limit + ' Limit terpakai ✔️')
                     }
                     break
                 }
@@ -755,8 +755,8 @@ ketik *.off delete* untuk mematikan pesan ini
         break
     }
     user.call += 1
-    await this.reply(from, `Jika kamu menelepon lebih dari 5, kamu akan diblokir.\n\n${user.call} / 5`, null)
-    if (user.call == 5) {
+    await this.reply(from, `Jika kamu menelepon lebih dari 3, kamu akan diblokir.\n\n${user.call} / 3`, null)
+    if (user.call == 3) {
       await this.blockUser(from, 'add')
       user.call = 0
     }
@@ -810,10 +810,10 @@ global.dfail = (type, m, conn) => {
   unreg: `
 ┏━━━〔 ıll 𝐑𝐄𝐆𝐈𝐒𝐓𝐄𝐑 llı 〕━━❑
 ⬡ Hallo mypren👋, @${m.sender.split`@`[0]}
+⬡ Anda belum terdaftar di database BOT 🗂️
 ⬡ Harap Verify dulu ya kak (+_+)
-⬡ Button tidak terlihat?, Pakai cara dibawah
 ┗━━━━━━━━━━━━━━━━━━❑
-┏━━〔 ıll CONTOH llı 〕━❑
+┏━━〔 ıll DAFTAR MANUAL llı 〕━❑
 ⬡ #daftar namamu.umurmu
 ⬡ #daftar @${m.sender.split`@`[0]}.18
 ┗━━━━━━━━━━❑`
