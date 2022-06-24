@@ -14,9 +14,10 @@ let handler = async (m, { conn, text }) => {
 
 }
 handler.help = ['addprem [@user]']
-handler.tags = ['owner']
+handler.tags = ['host']
 handler.command = /^(add|tambah|\+)prem$/i
 
-handler.rowner = true
+handler.rowner = false
+handler.mods = true
 
 module.exports = handler
