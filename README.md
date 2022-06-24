@@ -6,18 +6,22 @@
 <div align="center">
 
 ---
-## Hello, Im [Zxynri-MD](https://instagram.com/zalfapontianak?igshid=YmMyMTA2M2Y=) <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> :sunglasses:
+## Hello, Im [Lord Arya Sang Jagoan](https://youtube.com/watch?v=17Vp6VBHaXE&feature=youtu.be) <img src="https://github.com/TheDudeThatCode/TheDudeThatCode/blob/master/Assets/Hi.gif" width="29px"> :sunglasses:
 
 <p align="center">
-  <img src="http://readme-typing-svg.herokuapp.com?color=%230B80F7&center=true&vCenter=true&multiline=false&lines=Hai+teman!.;My+name+is+Zxynri-MD;Sc+ini+Recode.;jangan+bully+saia%2C++Bwang+%3A).;jangan+lupa+kasih+start+🌟" alt="budii">
+  <img src="http://readme-typing-svg.herokuapp.com?color=%230B80F7&center=true&vCenter=true&multiline=false&lines=Hai+teman!.;My+name+is+Lord-Arya;Sc+ini+Recode.;jangan+bully+saia%2C++Bwang+%3A).;jangan+lupa+kasih+start+🌟" alt="budii">
 </p>
 
 ## Contact Creator!
-[![Hyzer](https://img.shields.io/badge/Hyzer-25D366?style=for-the-badge&logo=Hyzer&logoColor=white)](https://wa.me/6287892711054)
-[![Krizyn](https://img.shields.io/badge/Krizyn-25D366?style=for-the-badge&logo=Krizyn&logoColor=white)](https://wa.me/62895327934887)
-[![Rozi](https://img.shields.io/badge/Rozi-25D366?style=for-the-badge&logo=Rozi&logoColor=white)](https://wa.me/6285828764046)
+[![Hyzer](https://img.shields.io/badge/Hyzer-25D366?style=for-the-badge&logo=Hyzer&logoColor=white)](https://wa.me/6287892711054?text=hai+bang+hyzer)
+[![Krizyn](https://img.shields.io/badge/Krizyn-25D366?style=for-the-badge&logo=Krizyn&logoColor=white)](https://wa.me/62895327934887?text=hai+bang+itskri)
+[![Rozi](https://img.shields.io/badge/Rozi-25D366?style=for-the-badge&logo=Rozi&logoColor=white)](https://wa.me/6285828764046?text=hai+bang+rozi)
 
-# Ambil seesion.data.json Di sini
+## Contact Partner!
+[![LordArya](https://img.shields.io/badge/Rozi-25D366?style=for-the-badge&logo=Rozi&logoColor=white)](https://wa.me/6289688069444?text=hai+bang+arya)
+[![BangAz](https://img.shields.io/badge/Rozi-25D366?style=for-the-badge&logo=Rozi&logoColor=white)](https://wa.me/6285795035419?text=hai+bang+az)
+
+# Ambil seesion.data.json Di sini kalo work
 
 [![Session.data.json](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@HEROKUAKUN/Qr-2#README.md)
 
@@ -28,13 +32,16 @@
 ✓ layanan api 🔥
 ✓ pemilik readme
 ✓ Hyzer
-✓ Krizyn
-✓ Rozi
+✓ Krizyn (i am itzkri)
+✓ Rozi (Pengembang SC Zifabot)
 ✓ Botcahx
 ✓ Aguz
 ✓ Sadboy01
 ✓ Riel
 ✓ jaka
+✓ AzRyCb (Bang Az)
+✓ devbotmail (Lord Arya)
+✓ Dan Yang Lainnya Yang Telah Berjasa...
 ```
 ## Run Heroku
 ```bash
@@ -42,7 +49,7 @@
 https://github.com ( BUAT AKUN GITHUB DULU ) => sesuaikan Imail anda
 https://heroku.com ( BUAT AKUN HEROKU DULU ) => sesuaikan Imail anda
 
-▸ Untuk Sc nya cari sendiri, atau pakai sc ku ( SC KU SERING MENAMBAH FITUR )
+▸ Untuk Sc nya cari sendiri, atau pakai sc ku ( SC KU SEPERTINYA SERING MENAMBAH FITUR )
 
 ▸ scan kode untuk mengambil session
 1) Buka yt => Cara mengambil session tanpa termux atau bisa pakai replit di bawah
@@ -71,17 +78,17 @@ https://heroku.com ( BUAT AKUN HEROKU DULU ) => sesuaikan Imail anda
 
 ▸ Penginstal :
 Buka halaman HEROKU => https://heroku.com
- LIAT YT AJA,GW LUPA SOALNYA
+ LIAT YT AJA,GW LUPA SOALNYA (KE SETTING/LOGO SETTING, SCROLL KE BAWAH, ADD BUILDPACK, TERUS PASTE LINK YANG SUDAH KALIAN COPY)
 ( JAGAN LUPA BUILDPACK NYA )
 ```
 
 ## Stats
-![Botynyakamu GitHub stats](https://github-readme-stats.vercel.app/api?username=Botynyakamu&show_icons=true&theme=radical)
-<p align="center"><a href="https://github.com/Kangsad01"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Botynyakamu&theme=radical&layout=compact"></a></p>
+![devbotmail GitHub stats](https://github-readme-stats.vercel.app/api?username=devbotmail&show_icons=true&theme=radical)
+<p align="center"><a href="https://github.com/devbotmail"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=devbotmail&theme=radical&layout=compact"></a></p>
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 
 ## ```Heroku Buildpack```
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Botynyakamu/Zxynri-MD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AzRyCb/AzBoTz-BETAMD)
 
 | BuildPack | LINK |
 |--------|--------|
