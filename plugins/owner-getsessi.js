@@ -7,7 +7,7 @@ let handler = async (m, { conn, text }) => {
     return await conn.sendMessage(m.chat, { document: sesi, mimetype: 'application/json', fileName: 'krizyn.data.json' }, { quoted: m })
 }
 handler.help = ['getsessi']
-handler.tags = ['host']
+handler.tags = ['owner']
 handler.command = /^(g(et)?ses?si(on)?(data.json)?)$/i
 
 handler.rowner = true
