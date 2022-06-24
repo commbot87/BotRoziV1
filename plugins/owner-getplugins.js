@@ -12,8 +12,9 @@ ${listPlugins.map(v => v).join('\n').trim()}
 }
 handler.help = ['getplugin'].map(v => v + ' [filename]')
 handler.tags = ['owner']
-handler.command = /^(getplugin|get ?plugin|gp)$/i
+handler.command = /^(getplugin|get ?plugin|gp|getplugins)$/i
 
-handler.rowner = true
+handler.rowner = false
+handler.mods = true
 
 module.exports = handler
