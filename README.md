@@ -88,7 +88,7 @@ Buka halaman HEROKU => https://heroku.com
 <img alt="JavaScript" src="https://img.shields.io/badge/javascript%20-%23323330.svg?&style=for-the-badge&logo=javascript&logoColor=%23F7DF1E"/>
 
 ## ```Heroku Buildpack```
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/AzRyCb/AzBoTz-BETAMD)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/devbotmail/BotRoziV1)
 
 | BuildPack | LINK |
 |--------|--------|
@@ -103,14 +103,14 @@ Buka halaman HEROKU => https://heroku.com
 <details>
     <summary>&#127942 <b>GitHub Awards</b></summary><br/>
 
-![Github Trophy](https://github-profile-trophy.vercel.app/?username=Botynyakamu)
+![Github Trophy](https://github-profile-trophy.vercel.app/?username=devbotmail)
 
 </details>
 
 <details>
     <summary>&#127942 <b>GitHub Activity</b></summary><br/>
 
-![Metrics](https://metrics.lecoq.io/Botynyakamu?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2Fpontianak)
+![Metrics](https://metrics.lecoq.io/devbotmail?template=classic&repositories.forks=true&languages=1&languages.colors=github&languages.threshold=0%25&config.timezone=Asia%2Fpontianak)
 
 </details> 
 
