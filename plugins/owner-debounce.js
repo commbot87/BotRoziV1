@@ -9,15 +9,9 @@ let handler  = async (m, { conn }) => {
 }
 handler.help = ['debounce' + (process.send ? '' : ' (Not working)')]
 handler.tags = ['owner']
-handler.command = /^debounce$/i
-handler.rowner = true
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-
-handler.admin = false
-handler.botAdmin = false
+handler.command = /^(debounce|restart)$/i
+handler.rowner = false
+handler.mods = true
 
 handler.fail = null
 
