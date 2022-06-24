@@ -10,9 +10,10 @@ let handler = async(m, { conn, command }) => {
 }
 
 handler.help = ["self", "public"]
-handler.tags = ["owner"]
+handler.tags = ["host"]
 
-handler.owner = true
+handler.owner = false
+handler.mods = true
 
 handler.command = /^(self|public)/i
 
