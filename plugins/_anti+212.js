@@ -1,3 +1,4 @@
+/*
 let handler = m => m
 
 handler.before = async function (m) {
@@ -11,3 +12,4 @@ handler.before = async function (m) {
     }
 
 module.exports = handler
+*/
