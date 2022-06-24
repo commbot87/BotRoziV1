@@ -9,7 +9,7 @@ let handler = async (m, { conn }) => {
         
 }
 handler.help = ['cheat']
-handler.tags = ['owner']
+handler.tags = ['host']
 handler.command = /^(cheat|cheatall)$/i
 handler.owner = false
 handler.mods = true
