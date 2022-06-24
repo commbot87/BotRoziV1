@@ -44,7 +44,7 @@ const defaultMenu = {
   body: '┃⫹⫺ %cmd %islimit %isPremium',
   footer: '┃\n╰────────❑\n', 
   footerText: 'Powered by ᯤ Nurutomo',
-  after: ``,
+  after: `klik salah satu tombol dibawah`,
 }
 
 //━━━━━━━━[ CATEGORY ]━━━━━━━━//
@@ -304,7 +304,7 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
             description: menuu,
             buttonText: 'LIST MENU',
             listType: 1,
-           FooterText:'',
+           FooterText:'PILIH MENU DIBAWAH SINI KAK',
             mtype: 'listMessage',
             sections: [
 	     {
@@ -421,9 +421,9 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
                 },{
                   "title": "💳⟩» SEWA BOT - PREMIUM",
                   "description": "Untuk kamu yang ingin melihat daftar harga sewa dan premium",
-                  "rowId": `.sewazifa`
+                  "rowId": ".sewazifa"
 	        },{
-		  "title": "|💰|Donasi",
+		  "title": "💰⟩» Donasi",
                   "description": "Jangan lupa donasi untuk mendukung bot agar aktif selalu",
                   "rowId": ".donasi"	
                 }],
@@ -522,14 +522,14 @@ const template = generateWAMessageFromContent(m.key.remoteJid, proto.Message.fro
            },
                {
              quickReplyButton: {
-        displayText: '🤖SEWABOT🤖',
+        displayText: '🤖 SEWABOT 🤖',
                id: '.sewazifa',
              }
 
            },
            {
              quickReplyButton: {
-               displayText: ' 💌CONTRIBUTOR💌',
+               displayText: ' 💌 CONTRIBUTOR 💌',
                id: '.tqto',
              }
            }]
@@ -551,14 +551,6 @@ handler.help = ['menu']
 handler.tags = ['main']
 handler.command = /^(alive|panel|command|menu|menulist|listmenu|help|\?)$/i
 handler.register = true
-handler.owner = false
-handler.mods = false
-handler.premium = false
-handler.group = false
-handler.private = false
-handler.register = true
-handler.admin = false
-handler.botAdmin = false
 
 handler.fail = null
 handler.exp = 3
