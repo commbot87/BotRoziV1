@@ -20,10 +20,10 @@ global.pulsa = '089688069444'
 global.gopay = '089688069444' 
 
 //=============『 Info Bot 』=================// 
-global.namebot = '@❋ཻུ۪۪⸙# *BotMd-Lord_Arya* -%%⳹❋ཻུ۪۪' 
+global.namebot = '*B O T - M D*' 
 global.gc = 'https://chat.whatsapp.com/E7R8oYD1AiKFVTk83Qc0sd' 
-global.web = 'https://google-expres-web.blogspot.com' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
-global.webm = 'https://instagram.com/arya_musthofa_roja01' 
+global.web = '-' //ubah jadi website lu, bisa link ig, link github, link yt, klo link gc ntr beda tampilan lagi. 
+global.webm = '-' 
 global.price1 = '𝐍𝐈𝐇 𝐁𝐀𝐍𝐆 𝐋𝐈𝐒𝐓 𝐒𝐄𝐖𝐀𝐍𝐘𝐀\n\n》PERMANEN Rp 21.000\nMAKSIMAL 1 GRUP\n》PERMANEN Rp 17.000\nMAKSIMAL 3 GRUP \n》1 BULAN Rp 13.000\nMAKSIMAL 1 GRUP \n》3 MINGGU FREE ATAU Rp 2.000\nMAKSIMAL 1 GRUP' 
 
 //=======『 Tampilan Dan Lainnya 』============// 
@@ -33,10 +33,10 @@ global.fotonya3 = 'https://telegra.ph/file/6b4b8ae2ba7f244626a6d.jpg'
 global.donasi = 'https://telegra.ph/file/6b4b8ae2ba7f244626a6d.jpg' //ganti pakai poto apa aja 
 global.lolkey = 'Papah-Chan' //biar mudah ngegantinya semisal apikeynya expired:v 
 global.zenzkey = 'BagasPrdn' //ganti jadi apikey lu kalau expired 
-global.wm = '© ❋ཻུ۪۪-//Lord:Md.Bot⳹ ❋ཻུ۪۪' 
+global.wm = 'B O T - M D' 
 global.watermark = wm 
-global.wm2 = 'ᯤ Creator by Oᵂηʀ᭄๖ۣۣۜLordAr꧅' 
-global.wm3 = 'ᯤ BangLord 𝙾𝙵𝙲' 
+global.wm2 = 'ᯤ Creator B O T' 
+global.wm3 = 'ᯤ M D - 𝙾𝙵𝙲' 
 global.htki = '––––––『' 
 global.htka = '』––––––' 
 global.media = 'https://telegra.ph/file/72168c6f1aaa90315c369.jpg' 
@@ -46,8 +46,8 @@ global.eror = '_*🚨 Server Error Mohon Coba Lagi Nanti*_'
 global.benar = 'Benar ✅\n' 
 global.salah = 'Salah ❌\n' 
 global.stiker_wait = '⏳ Memuat Stiker' 
-global.packname = 'BangLordBot' 
-global.author = '@BangLord' 
+global.packname = 'B O T - M D' 
+global.author = '@BOT MD' 
 
 //=============『 Apikey 』================== //
 global.APIs = { // API Prefix
