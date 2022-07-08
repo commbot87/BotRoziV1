@@ -11,13 +11,13 @@ global.mods = ['62895411075941','6283183321692','6285795035419','6289688069444',
 global.prems = ['6285795035419','6289688069444','62895411075941','6283183321692','6285828764046'] 
 
 //=============『 Info Owner 』============== // 
-global.nameowner = 'BangLordArCatalouge','lordpartner','developer_bot_lord','HanyaSekedarTeman','owner22BangAZ','PembuatSCnya'
-global.numberowner = 'https://wa.me/p/5705241632840380/6289688069444','6289688069444','62895411075941','6283183321692','6285795035419','6285828764046' 
-global.instagram = 'https://instagram.com/arya_musthofa_roja01' 
+global.nameowner = 'owner 1'
+global.numberowner = 'https://wa.me/6283183321692'
+global.instagram = '-' 
 global.github = 'https://github.com/devbotmail' 
-global.dana = '089688069444' 
-global.pulsa = '089688069444' 
-global.gopay = '089688069444' 
+global.dana = '083183321692' 
+global.pulsa = '083183321692' 
+global.gopay = '083183321692' 
 
 //=============『 Info Bot 』=================// 
 global.namebot = '*B O T - M D*' 
